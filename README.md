@@ -36,11 +36,11 @@ git clone https://github.com/pratikganjale55/reachhub
 2. Install package:
 
 ```bash
- cd Client
+ cd Frontend
  npm install 
  npm run dev
 
- cd Server 
+ cd Backend 
  npm install 
  npm start
 ```
