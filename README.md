@@ -1,13 +1,13 @@
-# reachhub
+# ReachHub
 
-Evallo is a web application for sharing and managing content.
+The application should efficiently process and display chess player data from the Lichess.org API.
 
 ## Features
 
-- Users can submit content including titles, descriptions, and files.
-- Content can be downloaded or previewed.
-- Responsive layout for various screen sizes.
-- Support for various file types including images, text files, spreadsheets, and documents.
+- Users can see top 50 classical chess players..
+- Content can be downloaded CSV file of Top 50 player rating history.
+- User can see rating history as per username .
+- Rating history in chart.
 
 ## Technologies Used
 
@@ -19,7 +19,6 @@ Evallo is a web application for sharing and managing content.
   - Node.js
   - Express.js
   - MongoDB (with Mongoose for object modeling)
-  - Multer (for handling file uploads)
 - Other:
   - Zod (for form validation)
   - React Router (for client-side routing)
@@ -31,26 +30,23 @@ Evallo is a web application for sharing and managing content.
 
 ```bash
 git clone https://github.com/pratikganjale55/reachhub
- ```
+```
 
 2. Install package:
 
 ```bash
  cd Frontend
- npm install 
+ npm install
  npm run dev
 
- cd Backend 
- npm install 
+ cd Backend
+ npm install
  npm start
 ```
-3.Add credientals as a DATABASE url (MongoDB) <br/>
-4. Open  http://localhost:5173 view it in the browser  <br/>
-5. Open http://localhost:8080 to backend run in the browser  <br/>
+
+3.Add credientals as a DATABASE url (MongoDB) <br/> 4. Open http://localhost:5173/ to view it in the browser <br/> 5. Open http://localhost:8080 to backend run in the browser <br/>
 
 ![Homepage](./Frontend/src/assets/PlayerTable.png)
 ![Player Rating History](./Frontend/src/assets/HistoryChart.png)
 ![Login](./Frontend/src/assets/Login.png)
 ![Signup](./Frontend/src/assets/Signup.png)
-
- 
