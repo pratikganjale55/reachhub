@@ -11,7 +11,7 @@ const PlayersTable = () => {
   const { player, isLoading } = useSelector((state) => state.playerReducer);
 
   const handleRating = (item) => {
-    navigate(`/rating/${item.username}`, { state: { item } })
+    navigate(`/rating/${item.username}`, { state: { item } });
   };
   useEffect(() => {
     dispatch(getPlayerAll());

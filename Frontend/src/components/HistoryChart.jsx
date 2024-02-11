@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Chart from "react-google-charts";
-
 
 const HistoryChart = ({ chartData }) => {
   return (

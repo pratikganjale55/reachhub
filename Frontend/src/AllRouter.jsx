@@ -7,8 +7,7 @@ import Login from "./pages/Login";
 import { useSelector } from "react-redux";
 
 const AllRouter = () => {
-  const { isAuth } = useSelector((state) => state.authReducer);
-  console.log("main", isAuth);
+
   return (
     <>
       <Routes>

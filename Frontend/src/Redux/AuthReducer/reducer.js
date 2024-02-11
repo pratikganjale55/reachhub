@@ -4,8 +4,7 @@ const initialstate = {
   isLoading: false,
   isError: false,
   isSuccess: "",
-  isAuth : false
-  
+  isAuth: false,
 };
 const authReducer = (state = initialstate, action) => {
   switch (action.type) {
@@ -15,8 +14,7 @@ const authReducer = (state = initialstate, action) => {
         isLoading: true,
         isError: false,
         isSuccess: "",
-        isAuth : false
-       
+        isAuth: false,
       };
     case LOGIN_SUCCESS:
       return {
@@ -24,8 +22,7 @@ const authReducer = (state = initialstate, action) => {
         isLoading: true,
         isError: false,
         isSuccess: action.payload,
-        isAuth : true
-       
+        isAuth: true,
       };
     case LOGIN_FAILURE:
       return {
@@ -33,8 +30,7 @@ const authReducer = (state = initialstate, action) => {
         isLoading: false,
         isError: true,
         isSuccess: "",
-        isAuth : false
-       
+        isAuth: false,
       };
 
     default:

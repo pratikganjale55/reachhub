@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../styles/players.module.css" ;
+import style from "../styles/players.module.css";
 const spinnerArr = [
   "primary",
   "secondary",
@@ -13,14 +13,14 @@ const spinnerArr = [
 const Spinner = () => {
   return (
     <>
-    <div className={style.spinnerDiv}>
-      {spinnerArr?.map((item, i) => {
-        return (
-          <div className={`spinner-grow text-${item}`} role="status">
-            <span className="sr-only">...</span>
-          </div>
-        );
-      })}
+      <div className={style.spinnerDiv}>
+        {spinnerArr?.map((item, i) => {
+          return (
+            <div className={`spinner-grow text-${item}`} role="status">
+              <span className="sr-only">...</span>
+            </div>
+          );
+        })}
       </div>
     </>
   );

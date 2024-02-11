@@ -10,7 +10,7 @@ export const getPlayerRating = (userName) => async (dispatch) => {
 
     let res = await apiClient.get(`/player/${userName}/rating-history`);
     let data = res.data.data;
-     console.log(data, userName)
+    console.log(data, userName);
     dispatch({ type: RATING_REQUEST_SUCCESS, payload: data });
   } catch (error) {
     dispatch({ type: RATING_REQUEST_FAILURE });

@@ -6,10 +6,10 @@ export const login = (data) => async (dispatch) => {
     dispatch({ type: LOGIN_REQUEST });
     const response = await getApi.post("/login", data);
     let messaage = response.data.message;
-  
+
     dispatch({ type: LOGIN_SUCCESS, payload: messaage });
   } catch (error) {
-    dispatch({ type: LOGIN_FAILURE,  });
+    dispatch({ type: LOGIN_FAILURE });
     console.log("error whil login");
   }
 };

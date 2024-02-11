@@ -40,8 +40,12 @@ const RatingHistory = () => {
       >
         <div class="p-2 border-bottom fs-5">UserId : {playerInfo?.id}</div>
         <div class="p-2 border-bottom fs-5">Name : {playerInfo?.username}</div>
-        <div class="p-2 border-bottom fs-5">Progress : {playerInfo?.perfs?.classical?.progress}</div>
-        <div class="p-2 border-bottom fs-5 ">Rating : {playerInfo?.perfs?.classical?.rating}</div>
+        <div class="p-2 border-bottom fs-5">
+          Progress : {playerInfo?.perfs?.classical?.progress}
+        </div>
+        <div class="p-2 border-bottom fs-5 ">
+          Rating : {playerInfo?.perfs?.classical?.rating}
+        </div>
       </div>
       <div className="col-10 p-2">
         <p> </p>

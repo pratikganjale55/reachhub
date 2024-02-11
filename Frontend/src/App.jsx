@@ -1,20 +1,15 @@
+import AllRouter from "./AllRouter";
+import "./App.css";
 
-import AllRouter from './AllRouter'
-import './App.css'
-
-import Navbar from './pages/Navbar'
-
-
+import Navbar from "./pages/Navbar";
 
 function App() {
-  
-
   return (
     <>
-      <Navbar/>
-     <AllRouter/>
+      <Navbar />
+      <AllRouter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

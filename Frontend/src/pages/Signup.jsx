@@ -22,7 +22,7 @@ const Signup = () => {
       console.log(response.data.message);
       setMessage(response.data.message);
       if (response.data.message == "successfully signup with email") {
-        navigate("/login");
+        navigate("/");
       }
     } catch (error) {
       console.log(error);
@@ -41,7 +41,7 @@ const Signup = () => {
           text="Have account go Login page"
         />
         <Link to="/" className="text-primary">
-         <p>Have an account? Go to Login page</p> 
+          <p>Have an account? Go to Login page</p>
         </Link>
       </form>
     </div>
