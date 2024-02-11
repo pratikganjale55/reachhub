@@ -30,7 +30,7 @@ Evallo is a web application for sharing and managing content.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/pratikganjale55/Evallo.git
+git clone [https://github.com/pratikganjale55/Evallo.git](https://github.com/pratikganjale55/reachhub)
  ```
 
 2. Install package:
