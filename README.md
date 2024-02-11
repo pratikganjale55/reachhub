@@ -45,7 +45,7 @@ git clone https://github.com/pratikganjale55/reachhub
  npm start
 ```
 3.Add credientals as a DATABASE url (MongoDB) <br/>
-4. Open http://localhost:3000 to view it in the browser  <br/>
+4. Open  http://localhost:5173 view it in the browser  <br/>
 5. Open http://localhost:8080 to backend run in the browser  <br/>
 
 ![Homepage](./Frontend/src/assets/PlayerTable.png)
