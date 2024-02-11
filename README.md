@@ -48,6 +48,9 @@ git clone https://github.com/pratikganjale55/Evallo.git
 4. Open http://localhost:3000 to view it in the browser  <br/>
 5. Open http://localhost:8080 to backend run in the browser  <br/>
 
-
+![Homepage](./Frontend/src/assets/PlayerTable.png)
+![Player Rating History](./Frontend/src/assets/HistoryChart.png)
+![Login](./Frontend/src/assets/Login.png)
+![Signup](./Frontend/src/assets/Signup.png)
 
  
